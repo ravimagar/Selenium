@@ -37,7 +37,7 @@ public class DatePicker {
 
     @Test
     public void verifyDatePicker() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ganesh.jadhav\\OneDrive - Emtec Inc\\Ganesh_Automation\\Study\\AutomationLearningLab\\SeleniumProject\\src\\main\\resources\\browser\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ganesh.jadhav\\Repo\\SeleniumProject2.0\\src\\test\\java\\selenium\\browser\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://www.spicejet.com/");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));

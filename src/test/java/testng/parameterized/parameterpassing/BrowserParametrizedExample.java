@@ -18,7 +18,7 @@ public class BrowserParametrizedExample {
     void beforeMethod(String browser) {
         switch (browser) {
             case "chrome":
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\ganesh.jadhav\\OneDrive - Emtec Inc\\Ganesh_Automation\\Study\\AutomationLearningLab\\SeleniumProject\\src\\main\\resources\\browser\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\ganesh.jadhav\\Repo\\SeleniumProject2.0\\src\\test\\java\\selenium\\browser\\chromedriver.exe");
                 driver = new ChromeDriver();
                 break;
             case "firefox":

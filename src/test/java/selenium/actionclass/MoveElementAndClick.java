@@ -12,7 +12,7 @@ public class MoveElementAndClick {
 
     @Test
     void verifyMoveElementAndClick() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ganesh.jadhav\\OneDrive - Emtec Inc\\Ganesh_Automation\\Study\\AutomationLearningLab\\SeleniumProject\\src\\main\\resources\\browser\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ganesh.jadhav\\Repo\\SeleniumProject2.0\\src\\test\\java\\selenium\\browser\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://selenium08.blogspot.com/2020/01/click-and-hold.html");
         driver.manage().window().maximize();

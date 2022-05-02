@@ -11,7 +11,7 @@ import java.util.Set;
 public class GetWindowsHandlesExample {
     @Test
     public void verifyWindowsHandles() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ganesh.jadhav\\OneDrive - Emtec Inc\\Ganesh_Automation\\Study\\AutomationLearningLab\\SeleniumProject\\src\\main\\resources\\browser\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ganesh.jadhav\\Repo\\SeleniumProject2.0\\src\\test\\java\\selenium\\browser\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("http://demo.automationtesting.in/Windows.html");
         String parentWindow = driver.getWindowHandle();

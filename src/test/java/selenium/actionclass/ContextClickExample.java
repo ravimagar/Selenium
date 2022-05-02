@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class ContextClickExample {
     @Test
     void verifyContextClickExample() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ganesh.jadhav\\OneDrive - Emtec Inc\\Ganesh_Automation\\Study\\AutomationLearningLab\\SeleniumProject\\src\\main\\resources\\browser\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ganesh.jadhav\\Repo\\SeleniumProject2.0\\src\\test\\java\\selenium\\browser\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("http://swisnl.github.io/jQuery-contextMenu/demo.html");
         driver.manage().window().maximize();
