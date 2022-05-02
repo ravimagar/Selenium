@@ -2,182 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5856c646-0715-4829-8ab2-79af7837b37e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_5_0_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_78.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_auto_common_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_service_auto_service_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_service_auto_service_annotations_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_31_1_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_netty_netty_reactive_streams_2_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dev_failsafe_failsafe_3_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_60_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_60_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_classes_epoll_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_classes_kqueue_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_60_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_kqueue_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_kqueue_osx_x86_64_4_1_60_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_75_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_api_1_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_context_1_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_exporter_logging_1_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_1_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_common_1_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_extension_autoconfigure_1_12_0_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_extension_autoconfigure_spi_1_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_logs_1_12_0_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_metrics_1_12_0_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_trace_1_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_semconv_1_12_0_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_ous_jtoml_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava3_rxjava_3_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_asynchttpclient_async_http_client_2_12_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_asynchttpclient_async_http_client_netty_utils_2_12_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_4_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_4_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chromium_driver_4_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v85_4_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v97_4_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v98_4_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v99_4_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_4_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_4_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_http_4_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_4_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_4_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_json_4_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_4_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_4_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_4_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_4_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SeleniumProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/actionclass/ClickAndHold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/actionclass/ClickAndHold.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/actionclass/ContextClickExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/actionclass/ContextClickExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/actionclass/DoubleClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/actionclass/DoubleClick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/actionclass/DragAndDropMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/actionclass/DragAndDropMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/actionclass/KeyDownUpExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/actionclass/KeyDownUpExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/actionclass/MouseHover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/actionclass/MouseHover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/actionclass/MoveElementAndClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/actionclass/MoveElementAndClick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/actionclass/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/actionclass/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/brokenlinks/BrokenLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/brokenlinks/BrokenLinks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/browser/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/browser/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/cookieshandling/AddCookies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/cookieshandling/AddCookies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/cookieshandling/DeleteCookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/cookieshandling/DeleteCookie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/cookieshandling/StoringCookies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/cookieshandling/StoringCookies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/cookieshandling/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/cookieshandling/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/datepicker/DatePicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/datepicker/DatePicker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/datepicker/NewTestForMorningBatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/datepicker/NewTestForMorningBatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/datepicker/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/datepicker/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/datepicker/Test123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/datepicker/Test123.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/displaymethod/IsDisplayedMethodExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/displaymethod/IsDisplayedMethodExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/displaymethod/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/displaymethod/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/iframe/IframeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/iframe/IframeExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/iframe/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/iframe/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/scrolldown/ScrollByPixel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/scrolldown/ScrollByPixel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/selenium/scrolldown/ScrollByVisibleElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/scrolldown/ScrollByVisibleElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/selectclass/DeselectAllExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/selectclass/DeselectAllExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/selectclass/DropDownEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/selectclass/DropDownEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/takescreenshot/TakeAScreenShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/takescreenshot/TakeAScreenShot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/takescreenshot/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/takescreenshot/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/uploadfiles/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/uploadfiles/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/uploadfiles/UploadFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/uploadfiles/UploadFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/wait/ExplicitWaitExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/wait/ExplicitWaitExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/wait/FluentWaitExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/wait/FluentWaitExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/wait/ImplicitWaitExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/wait/ImplicitWaitExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/windowhandle/GetWindowsHandlesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/windowhandle/GetWindowsHandlesExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/assertion/HardAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng/assertion/HardAssert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/assertion/SoftAssertExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng/assertion/SoftAssertExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/extendsreport/ExtendsReportExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng/extendsreport/ExtendsReportExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/parallelexecution/ParallelExecutionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng/parallelexecution/ParallelExecutionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/parameterized/dataprovider/DataProviderAnnotationExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng/parameterized/dataprovider/DataProviderAnnotationExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/parameterized/dataprovider/DataProviderUsingExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng/parameterized/dataprovider/DataProviderUsingExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/parameterized/dataprovider/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng/parameterized/dataprovider/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/parameterized/parameterpassing/BrowserParametrizedExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng/parameterized/parameterpassing/BrowserParametrizedExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/parameterized/parameterpassing/ParameterizedExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng/parameterized/parameterpassing/ParameterizedExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/parameterized/parameterpassing/WithoutParameterizedExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng/parameterized/parameterpassing/WithoutParameterizedExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/SeleniumProject.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/actionclass/ClickAndHold.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/actionclass/ClickAndHold.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/actionclass/ContextClickExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/actionclass/ContextClickExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/actionclass/DoubleClick.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/actionclass/DoubleClick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/actionclass/DragAndDropMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/actionclass/DragAndDropMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/actionclass/KeyDownUpExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/actionclass/KeyDownUpExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/actionclass/MouseHover.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/actionclass/MouseHover.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/actionclass/MoveElementAndClick.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/actionclass/MoveElementAndClick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/actionclass/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/actionclass/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/brokenlinks/BrokenLinks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/brokenlinks/BrokenLinks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/cookieshandling/AddCookies.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/cookieshandling/AddCookies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/cookieshandling/DeleteCookie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/cookieshandling/DeleteCookie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/cookieshandling/StoringCookies.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/cookieshandling/StoringCookies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/cookieshandling/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/cookieshandling/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/datepicker/DatePicker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/datepicker/DatePicker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/datepicker/NewTestForMorningBatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/datepicker/NewTestForMorningBatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/datepicker/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/datepicker/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/datepicker/Test123.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/datepicker/Test123.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/displaymethod/IsDisplayedMethodExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/displaymethod/IsDisplayedMethodExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/displaymethod/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/displaymethod/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/iframe/IframeExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/iframe/IframeExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/iframe/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/iframe/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/scrolldown/ScrollByPixel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/scrolldown/ScrollByPixel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/scrolldown/ScrollByVisibleElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/scrolldown/ScrollByVisibleElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/selectclass/DeselectAllExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/selectclass/DeselectAllExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/selectclass/DropDownEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/selectclass/DropDownEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/takescreenshot/TakeAScreenShot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/takescreenshot/TakeAScreenShot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/takescreenshot/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/takescreenshot/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/uploadfiles/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/uploadfiles/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/uploadfiles/UploadFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/uploadfiles/UploadFiles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/wait/ExpliciteWaitExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/wait/FluentWaitExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/wait/FluentWaitExample$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/wait/FluentWaitExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/wait/FluentWaitExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/wait/ImplicitWaitExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/wait/ImplicitWaitExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/windowhandle/GetWindowsHandlesExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/windowhandle/GetWindowsHandlesExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng/assertion/HardAssert.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng/assertion/HardAssert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng/assertion/SoftAssertExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng/assertion/SoftAssertExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng/extendsreport/ExtendsReportExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng/extendsreport/ExtendsReportExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng/parallelexecution/ParallelExecutionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng/parallelexecution/ParallelExecutionExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng/parameterized/dataprovider/DataProviderAnnotationExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng/parameterized/dataprovider/DataProviderAnnotationExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng/parameterized/dataprovider/DataProviderUsingExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng/parameterized/dataprovider/DataProviderUsingExcel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng/parameterized/dataprovider/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng/parameterized/dataprovider/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng/parameterized/parameterpassing/BrowserParametrizedExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng/parameterized/parameterpassing/BrowserParametrizedExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng/parameterized/parameterpassing/ParameterizedExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng/parameterized/parameterpassing/ParameterizedExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng/parameterized/parameterpassing/WithoutParameterizedExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng/parameterized/parameterpassing/WithoutParameterizedExample.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -250,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/selenium/scrolldown/ScrollByVisibleElement.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -273,6 +98,7 @@
         <option value="$PROJECT_DIR$/src/test/java/testng/extendsreport/DefaultReportExample.java" />
         <option value="$PROJECT_DIR$/src/test/java/selenium/locators/Locators.java" />
         <option value="$PROJECT_DIR$/src/test/java/selenium/windowhandle/Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/scrolldown/ScrollByVisibleElement.java" />
       </list>
     </option>
   </component>
@@ -450,8 +276,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -544,7 +370,7 @@
     <frame x="-7" y="-7" width="1295" height="687" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2574899" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26153848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -754,7 +580,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/selenium/scrolldown/ScrollByVisibleElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
     </entry>
