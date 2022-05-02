@@ -21,6 +21,6 @@ public class ScrollByVisibleElement {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView();", srcElement);
         Thread.sleep(5000);
-        driver.close();
+        driver.quit();
     }
 }
