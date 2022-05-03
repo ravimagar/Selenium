@@ -1,18 +1,28 @@
 pipeline {
     agent any
+
     stages {
-        stage('Test') {
+        stage('Build') {
             steps {
-                sh 'make check'
+                echo 'Build World'
+            }
+        }
+		stage('Test') {
+            steps {
+                echo 'Test World'
+            }
+        }
+		stage('Deploy') {
+            steps {
+                echo 'Deploy World'
             }
         }
     }
-    post {
-        always {
-            junit '**/target/*.xml'
-        }
-        failure {
-            mail to: ganesh20215@gmail.com, subject: 'The Pipeline failed :('
-        }
-    }
+	post
+	{
+		always
+		{
+			emailext body: 'Summary', subject: 'Pipeline Status', to: 'ganesh20215@gmail.com'
+		}
+	}
 }
