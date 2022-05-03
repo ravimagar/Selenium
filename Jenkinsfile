@@ -26,8 +26,8 @@ pipeline {
                     junit '**/target/surefire-reports/TEST-*.xml'
                     archiveArtifacts 'target/*.jar'
                 }
-				always{
-				emailext body: 'Summary', subject: 'Pipeline Status', to: 'ganesh20215@gmail.com'
+		always{
+		   emailext body: 'Summary', subject: 'Pipeline Status', to: 'ganesh20215@gmail.com'
             }
         }
     }
