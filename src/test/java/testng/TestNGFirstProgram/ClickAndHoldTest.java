@@ -20,6 +20,7 @@ public class ClickAndHoldTest {
         WebElement titleC = driver.findElement(By.xpath("//li[text()= 'C']"));
         WebElement titleA = driver.findElement(By.xpath("//li[text()= 'A']"));
         Actions actions = new Actions(driver);
+        Thread.sleep(5000);
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView();", titleC);
         actions.moveToElement(titleA).build().perform();
