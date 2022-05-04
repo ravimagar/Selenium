@@ -16,6 +16,7 @@ public class ClickAndHoldTest {
         WebDriver driver = new ChromeDriver();
         driver.get("https://selenium08.blogspot.com/2020/01/click-and-hold.html");
         driver.manage().window().maximize();
+        Thread.sleep(5000);
         WebElement titleC = driver.findElement(By.xpath("//li[text()= 'C']"));
         WebElement titleA = driver.findElement(By.xpath("//li[text()= 'A']"));
         Actions actions = new Actions(driver);
