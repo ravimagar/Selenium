@@ -13,6 +13,6 @@ public class SecondTest{
 
     @Test(dependsOnMethods = "secondClassTest")
     void check(){
-        System.out.println("Check");
+        System.out.println("Check ");
     }
 }
