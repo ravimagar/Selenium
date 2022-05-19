@@ -37,12 +37,13 @@ public class BrowserParametrizedExample {
 
     @Test
     @Parameters({"value1", "value2"})
-    void verifyParameterizedValues(String value1, String value2){
-        driver.get("https://www.amazon.in/");
-        driver.findElement(By.id("twotabsearchtextbox")).sendKeys(value1);
-        driver.findElement(By.id("nav-search-submit-button")).click();
-        driver.findElement(By.id("twotabsearchtextbox")).clear();
-        driver.findElement(By.id("twotabsearchtextbox")).sendKeys(value2);
+    public void test1(String value1, String value2) throws InterruptedException {
+        driver.get("https://courses.letskodeit.com/practice");
+        driver.findElement(By.id("name")).sendKeys(value1);
+        Thread.sleep(3000);
+        driver.findElement(By.id("name")).clear();
+        driver.findElement(By.id("name")).sendKeys(value2);
+        Thread.sleep(3000);
         driver.close();
     }
 

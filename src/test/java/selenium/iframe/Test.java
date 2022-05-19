@@ -12,19 +12,22 @@ public class Test {
     public static WebDriver driver;
 
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ganesh.jadhav\\Repo\\SeleniumProject2.0\\src\\test\\java\\selenium\\browser\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:/Users/ganesh.jadhav/Repo/SeleniumProject2.0/src/test/java/selenium/browser/chromedriver.exe");
         driver = new ChromeDriver();
-        driver.get("https://demoqa.com/frames");
-        driver.manage().window().maximize();
+        driver.get("https://courses.letskodeit.com/practice");
+
+        int sizeIFrame = driver.findElements(By.tagName("iframe")).size();
+        System.out.println(sizeIFrame);
+
+        driver.switchTo().frame("courses-iframe");
+        WebElement element =  driver.findElement(By.id("search"));
         JavascriptExecutor js = (JavascriptExecutor)driver;
-        js.executeScript("arguments[0].scrollIntoView()", driver.findElement(By.id("frame1")));
-        List<WebElement> elements = driver.findElements(By.tagName("iframe"));
-        System.out.println(elements.size());
-        driver.switchTo().frame(3);
-        driver.switchTo().frame("frame1");
-        driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@id = 'frame1']")));
-        String headerText = driver.findElement(By.id("sampleHeading")).getText();
-        System.out.println(headerText);
+        js.executeScript("arguments[0].scrollIntoView();", element);
+//        element.sendKeys("hiiii");
+
+        String s = driver.findElement(By.xpath("//h1[text()='All Courses']")).getText();
+        System.out.println(s);
+
         driver.close();
     }
 }

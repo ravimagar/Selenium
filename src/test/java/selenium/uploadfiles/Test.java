@@ -6,27 +6,26 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
+import java.util.Scanner;
 
 public class Test {
         public static WebDriver driver;
 
-    public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ganesh.jadhav\\Repo\\SeleniumProject2.0\\src\\test\\java\\selenium\\browser\\chromedriver.exe");
-        driver = new ChromeDriver();
-        driver.get("http://the-internet.herokuapp.com/upload");
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-
-        WebElement upload = driver.findElement(By.id("file-upload"));
-        upload.sendKeys("C:\\Users\\ganesh.jadhav\\Downloads\\1-63.jpg");
-
-        driver.findElement(By.id("file-submit")).click();
-        String fileUploadMessage = driver.findElement(By.xpath("//h3[text()='File Uploaded!']")).getText();
-        if(fileUploadMessage.equals("File Uploaded!")){
-            System.out.println("yes your file is uploaded successfully");
-        }else {
-            System.out.println("your file is not able upload successfully");
-        }
-        driver.close();
+    public static void main(String[] args) throws InterruptedException {
+//        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ganesh.jadhav\\Repo\\SeleniumProject2.0\\src\\test\\java\\selenium\\browser\\chromedriver.exe");
+//        driver = new ChromeDriver();
+//        driver.get("http://the-internet.herokuapp.com/upload");
+//        WebElement fileUpload = driver.findElement(By.id("file-upload"));
+//        fileUpload.sendKeys("C:\\Users\\ganesh.jadhav\\Downloads\\save.png");
+//        driver.findElement(By.id("file-submit")).click();
+//
+//        String s = driver.findElement(By.xpath("//h3[text()='File Uploaded!']")).getText();
+//        if(s.equals("File Uploaded!")){
+//            System.out.println("your file is successfully uploaded");
+//        }else {
+//            System.out.println("your file isn't uploaded successfully");
+//        }
+//        driver.close();
 
     }
 }

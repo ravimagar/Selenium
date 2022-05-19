@@ -1,4 +1,4 @@
-package testng.TestNGFirstProgram;
+package testng.testngfirstprogram;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;

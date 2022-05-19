@@ -1,10 +1,8 @@
 package selenium.actionclass;
 
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 
 
 public class Test {
@@ -12,14 +10,26 @@ public class Test {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\ganesh.jadhav\\Repo\\SeleniumProject2.0\\src\\test\\java\\selenium\\browser\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://demoqa.com/alerts");
+
         driver.manage().window().maximize();
-        Thread.sleep(2000);
-        WebElement doubleClick = driver.findElement(By.xpath("(//button[text()='Click me'])[1]"));
-        doubleClick.click();
-        Alert alert = driver.switchTo().alert();
-        String s = alert.getText();
-        System.out.println("Text " + s);
-        alert.accept();
+
+        WebElement element = driver.findElement(By.id("promtButton"));
+
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0, 300)");
+
+        element.click();
+        Thread.sleep(3000);
+
+        try {
+            Alert alert = driver.switchTo().alert();
+            String prompt = "Phalke";
+            alert.sendKeys(prompt);
+            Thread.sleep(3000);
+            alert.accept();
+        } catch (NoAlertPresentException e) {
+            e.printStackTrace();
+        }
         driver.close();
     }
 }
