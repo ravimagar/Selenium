@@ -10,6 +10,7 @@ import java.util.List;
 
 public class Test123 {
     public static WebDriver driver;
+
     public static void main(String[] args) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\ganesh.jadhav\\Repo\\SeleniumProject2.0\\src\\test\\java\\selenium\\browser\\chromedriver.exe");
         driver = new ChromeDriver();
@@ -17,38 +18,24 @@ public class Test123 {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         driver.manage().window().maximize();
 
-
-        driver.findElement(By.id("source")).sendKeys("Pune");
-
-        List<WebElement> allElement = driver.findElements(By.xpath("//ul[@id='ui-id-1']//child::li"));
-
-        System.out.println(allElement);
-
-        for(WebElement element : allElement){
-            if(element.getText().equals("Pune")){
-                element.click();
-            }
-        }
-
+        String selDate = "17";
+        String selMonth = "May";
+        String selYear = "2022";
         driver.findElement(By.id("datepicker1")).click();
 
-        String selDate = "28";
-        String selMonth = "April";
-        String selYear = "2022";
+        String liMonth = driver.findElement(By.xpath("(//span[@class='ui-datepicker-month'])[1]")).getText();
+        String liYear = driver.findElement(By.xpath("(//span[@class='ui-datepicker-year'])[1]")).getText();
 
-        String month_first = driver.findElement(By.xpath("(//span[@class='ui-datepicker-month'])[1]")).getText();
-
-        String year_first = driver.findElement(By.xpath("(//span[@class='ui-datepicker-year'])[1]")).getText();
-
-        if(month_first.equals(selMonth) && year_first.equals(selYear)){
-            List<WebElement> allDates = driver.findElements(By.xpath("(//table[@class='ui-datepicker-calendar']//child::tbody/tr/td)"));
-            for(WebElement date : allDates){
-                if(date.getText().equals(selDate)){
+        if (liMonth.equals(selMonth) && liYear.equals(selYear)) {
+            List<WebElement> allDate = driver.findElements(By.xpath("(//table[@class='ui-datepicker-calendar'])[1]//child::tbody/tr/td"));
+            for (WebElement date : allDate) {
+                if (date.getText().equals(selDate)) {
                     date.click();
-                    return;
+                    break;
                 }
             }
+
         }
-        driver.quit();
+        driver.close();
     }
 }
