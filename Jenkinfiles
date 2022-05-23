@@ -1,0 +1,25 @@
+pipeline {
+      agent any
+      
+      stages{
+      stage('BUild'){
+      steps {
+      echo 'Build World'
+      }
+      }
+      stage ('Test'){
+      steps {
+      echo('Test World')
+      }
+      }
+      stage('Diploy'){
+steps {
+echo 'Display World'
+}
+}
+}
+post
+{
+always
+{ 
+emailtext body: 'Summery'.subject:'Pipeline Status'-to: 'ravi.mass2011@gmail.com' 
